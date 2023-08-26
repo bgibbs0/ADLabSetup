@@ -76,7 +76,7 @@ DC01 Virutal Machine: </br>
   </p>
 </br>
 
-`DC01` was provisioned a public IP address of `20.163.204.78`. This IP address will let me connect through a Remote Desktop session with my admin credentials created during the initial set up. On the `ADPrem` virtual network, `DC01` has a private IP address of `10.0.0.4`.
+`DC01` was provisioned a public IP address of `20.163.204.78`. This IP address will allow me to connect through a Remote Desktop session.</br> On the `ADPrem` virtual network, `DC01` has a private IP address of `10.0.0.4`.
 <p align="center">
 DC01 Virutal Machine: </br>
 <img src="https://i.imgur.com/Te64UMN.png"
