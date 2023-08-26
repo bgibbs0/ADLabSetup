@@ -281,3 +281,9 @@ DC01 Virtual Machine: </br>
 </br>
 
 <h2>Conclusion</h2>
+
+With the conclusion of this lab, I now have a Active Directory environment hosted on two Domain Controllers. These Domain Controllers are configured to replicate each other so there is a constant backup of AD. This is considered best practice for managing AD. If one DC were to go offline, the other DC would be able to keep AD running without skipping a beat. </br>
+</br>
+I also set up a virtual network in Azure, allowing me to deploy other virutal machines and add them to the `BrianTestLabCorp.com` domain in future labs. </br>
+</br>
+I was also able to create a Organizational Unit, three users to reside in the OU and a Group Policy setting enabling one user to use Remote Desktop. 
