@@ -207,7 +207,7 @@ DC02 Virutal Machine: </br>
   </p>
 </br>
 
-During the process of promoting `DC02` to a Domain Controller, instead of adding a new forest, I chose `Add a domain controller to an existing domain` since I had already done so in the `DC01` promotion. I specified the `BrianTestLabCorp.com` domain to joined. I also set up `DC02` to replicate `DC01`, this will ensure that the Domain Controllers can be maintenanced without effecting Active Directory Domain Services. </br>
+During the process of promoting `DC02` to a Domain Controller, instead of adding a new forest, I chose `Add a domain controller to an existing domain` since I had already done so in the `DC01` promotion. I specified the `BrianTestLabCorp.com` domain to be joined. I also set up `DC02` to replicate `DC01`. This will ensure that the Domain Controllers can be maintenanced without effecting the Active Directory Domain Services. </br>
 
 <p align="center">
 DC02 Virutal Machine: </br>
