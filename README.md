@@ -10,8 +10,13 @@ In this lab I am setting up a Active Directory (AD) environment in Azure. This e
 
 <h2>Glossary</h2>
 Active Directory - Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks </br>
+Active Directory Forest - the top most logical container in an Active Directory configuration that contains domains, users, computers, and group policies. </br>
 Azure - Microsoft's cloud computing platform. </br>
+Domain - Group of users, computers and other Active Directory objects that share the same AD database </br>
+Domain Controller - a server that responds to security authentication requests within a computer network domain. </br>
 Group Policy - Group Policy is an infrastructure that allows administrators to specify managed configurations for users and computers through Group Policy settings and Group Policy Preferences. </br>
+Virtual Machine - the virtualization or emulation of a computer system. </br>
+Virtual Network - enables the communication between multiple computers, virtual machines (VMs), virtual servers, or other devices across different office and data center locations. </br>
 
 <h2>Lab Walkthrough</h2>
 
