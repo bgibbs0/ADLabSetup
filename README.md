@@ -242,3 +242,42 @@ Active Directory Users and Computers: </br>
 
 I wanted to enable one of the users to connect to the Domain Controllers through Remote Desktop. I added `Steve Jobs` to the `Remote Desktop Users` security group. Security groups are a way to collect user accounts, computer accounts, and other groups into manageable units. This way I can specify what users should have Remote Desktop privileges. </br>
 
+<p align="center">
+Active Directory Users and Computers: </br>
+<img src="https://i.imgur.com/EavmC3m.png"
+  </p>
+</br>
+
+<p align="center">
+Active Directory Users and Computers: </br>
+<img src="https://i.imgur.com/eCvrxfw.png"
+  </p>
+</br>
+
+Before I could remote in with `Steve Jobs`, I needed to allow the `Remote Desktop Users` security group the ability to log in through Remote Desktop Services using Group Policy. Group Policy is an infrastructure that allows you to specify managed configurations for users and computers through Group Policy settings. This signficantly improves the efficiency of managing user permissions. </br>
+
+<p align="center">
+Group Policy Management Editor: </br>
+<img src="https://i.imgur.com/ZXwotCG.png"
+  </p>
+</br>
+<p align="center">
+Group Policy Management Editor: </br>
+<img src="https://i.imgur.com/i7MuoeE.png"
+  </p>
+</br>
+
+With this Group Policy setting configured for `Remote Desktop Users`, I was able to log into `DC01` with `Steve Jobs`. I ran a `whoami` command once logged into the VM as a proof of concept. </br>
+
+<p align="center">
+DC01 Virtual Machine: </br>
+<img src="https://i.imgur.com/ibMbdVl.png"
+  </p>
+</br>
+<p align="center">
+DC01 Virtual Machine: </br>
+<img src="https://i.imgur.com/dkXXvkh.png"
+  </p>
+</br>
+
+<h2>Conclusion</h2>
