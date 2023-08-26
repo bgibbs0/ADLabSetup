@@ -1,5 +1,5 @@
 <h1>Description</h1>
-In this lab I am setting up a Active Directory (AD) environment in Azure. This environment will be the foundation of future Active Directory labs I will be diving into. The AD environment will have two Domain Controllers that will replicate each other, enabling a redundancy and high availbility incase one were to go offline. 
+In this lab I am setting up a Active Directory (AD) environment in Azure. This environment will be the foundation of future Active Directory labs I will be diving into. The AD environment will have two Domain Controllers that will replicate each other, enabling redundancy and high availbility incase one were to go offline. 
 
 <h2>Utilities Used</h2>
 - Azure: Used to host virtual machines and create a virtual network. </br>
