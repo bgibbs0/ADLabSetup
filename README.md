@@ -62,7 +62,7 @@ DC01 Virutal Machine: </br>
   </p>
 </br>
 
-During the creation of `DC01`, I attached a seperate disk volume that will be used to host Active Directory data seperatley from the rest of the VM encase of corruption. I provisioned `DC01_DataDisk_0` 10 Gigabytes. </br>
+During the creation of `DC01`, I attached a seperate disk volume that will be used to host Active Directory data seperatley from the rest of the VM. I named this disk `DC01_DataDisk_0` and provisioned it 10 Gigabytes. </br>
 <p align="center">
 DC01 Virutal Machine: </br>
 <img src="https://i.imgur.com/q5xdaO4.png"
