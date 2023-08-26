@@ -15,6 +15,8 @@ Azure - Microsoft's cloud computing platform. </br>
 Domain - Group of users, computers and other Active Directory objects that share the same AD database </br>
 Domain Controller - a server that responds to security authentication requests within a computer network domain. </br>
 Group Policy - Group Policy is an infrastructure that allows administrators to specify managed configurations for users and computers through Group Policy settings and Group Policy Preferences. </br>
+Organizational Unit - a container within a Microsoft Active Directory domain which can hold users, groups and computers. </br>
+Security Group -  used to grant users permissions to IT resources. </br>
 Virtual Machine - the virtualization or emulation of a computer system. </br>
 Virtual Network - enables the communication between multiple computers, virtual machines (VMs), virtual servers, or other devices across different office and data center locations. </br>
 
