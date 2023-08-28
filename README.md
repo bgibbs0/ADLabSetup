@@ -3,8 +3,11 @@ In this lab I am setting up a Active Directory (AD) environment in Azure. This e
 
 <h2>Utilities Used</h2>
 - Azure: Used to host virtual machines and create a virtual network. </br>
+</br>
 - Windows Server 2022: Operating system that the Domain Controllers will be running. </br>
+</br>
 - Active Directory: Directory service used to create users and groups. </br>
+</br>
 - Group Policy: Used to allow Remote Desktop connections for users created in lab environment. 
 
 
